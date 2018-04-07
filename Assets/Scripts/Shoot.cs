@@ -22,7 +22,7 @@ public class Shoot : MonoBehaviour
     {
         if (canFire)
         {
-            firedBullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+            firedBullet = Instantiate(bulletPrefab, transform.position, transform.rotation);
             firedBullet.GetComponent<Rigidbody2D>().velocity = transform.up * bulletSpeed;
             StartCoroutine(LockFire());
         }
