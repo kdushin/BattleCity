@@ -5,10 +5,6 @@ public class DamageProvider : MonoBehaviour
 {
     [SerializeField] private int damage = 1;
 
-    void Update()
-    {
-
-    }
     void OnCollisionEnter2D(Collision2D collisionHit)
     {
         IDestroyable destroyableCollider = collisionHit.gameObject.GetComponent<IDestroyable>();
