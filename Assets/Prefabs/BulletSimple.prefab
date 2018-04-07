@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4896343216432436}
   - component: {fileID: 212978046396021454}
   - component: {fileID: 50536386099552112}
-  - component: {fileID: 70758382771345416}
-  - component: {fileID: 114784340152913098}
+  - component: {fileID: 114988614364318518}
+  - component: {fileID: 61134857427802560}
   m_Layer: 8
   m_Name: BulletSimple
   m_TagString: Untagged
@@ -63,8 +63,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!70 &70758382771345416
-CapsuleCollider2D:
+--- !u!61 &61134857427802560
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -72,13 +72,23 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 1}
+    oldSize: {x: 0.125, y: 0.21875}
+    newSize: {x: 0.125, y: 0.21875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 0.125, y: 0.21875}
-  m_Direction: 0
---- !u!114 &114784340152913098
+  m_EdgeRadius: 0
+--- !u!114 &114988614364318518
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -90,6 +100,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  _onTrigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1879815839806996}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: DamageProvider+OnTriggerEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
 --- !u!212 &212978046396021454
 SpriteRenderer:
   m_ObjectHideFlags: 1
