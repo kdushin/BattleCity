@@ -29,15 +29,19 @@ public class Movable : MonoBehaviour
 
     public void Move(MoveDir dir)
     {
+        var sin = (float)Math.Sin(_rigidbody2D.rotation * Math.PI / 180);
+        var cos = (float)Math.Cos(_rigidbody2D.rotation * Math.PI / 180);
+        var len = _speedFactor * Time.deltaTime;
+
         switch (dir)
         {
             case MoveDir.None:
                 break;
-            case MoveDir.Forward:
-                _rigidbody2D.MovePosition(_rigidbody2D.position + new Vector2(0, _speedFactor * Time.deltaTime));
+            case MoveDir.Forward:       
+                _rigidbody2D.MovePosition(_rigidbody2D.position - new Vector2(len * sin, - len * cos));
                 break;
             case MoveDir.Backward:
-                _rigidbody2D.MovePosition(_rigidbody2D.position + new Vector2(0, -_speedFactor * Time.deltaTime));
+                _rigidbody2D.MovePosition(_rigidbody2D.position + new Vector2(len * sin, - len * cos));
                 break;
             default:
                 throw new ArgumentOutOfRangeException("dir", dir, null);
