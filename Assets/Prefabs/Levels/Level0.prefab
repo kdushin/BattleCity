@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 212402790088360408}
   - component: {fileID: 61513842268721946}
   - component: {fileID: 50465353627220932}
+  - component: {fileID: 114084971009178216}
   m_Layer: 0
   m_Name: Crate (15)
   m_TagString: Untagged
@@ -101,6 +102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4738621284889068}
   - component: {fileID: 212105820874812934}
+  - component: {fileID: 114780530784387652}
   - component: {fileID: 58551147528919530}
   m_Layer: 0
   m_Name: Barrel (1)
@@ -135,6 +137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4380713166150192}
   - component: {fileID: 212442784096794540}
+  - component: {fileID: 114138234743027464}
   - component: {fileID: 58292825676328018}
   m_Layer: 0
   m_Name: Barrel (3)
@@ -202,6 +205,7 @@ GameObject:
   - component: {fileID: 212332243786811414}
   - component: {fileID: 61185034062524514}
   - component: {fileID: 50136791041632888}
+  - component: {fileID: 114564840052932934}
   m_Layer: 0
   m_Name: Crate (18)
   m_TagString: Untagged
@@ -301,6 +305,7 @@ GameObject:
   - component: {fileID: 212056011219222454}
   - component: {fileID: 61450384664543166}
   - component: {fileID: 50115398538628500}
+  - component: {fileID: 114712908145831228}
   m_Layer: 0
   m_Name: Crate (14)
   m_TagString: Untagged
@@ -495,6 +500,7 @@ GameObject:
   - component: {fileID: 212505809173848358}
   - component: {fileID: 61039886669231342}
   - component: {fileID: 50387122603534516}
+  - component: {fileID: 114353266163649726}
   m_Layer: 0
   m_Name: Crate (3)
   m_TagString: Untagged
@@ -643,6 +649,7 @@ GameObject:
   - component: {fileID: 212903305047531268}
   - component: {fileID: 61860313834215900}
   - component: {fileID: 50193971641130316}
+  - component: {fileID: 114942049995799510}
   m_Layer: 0
   m_Name: Crate (7)
   m_TagString: Untagged
@@ -695,6 +702,7 @@ GameObject:
   - component: {fileID: 212753840691935536}
   - component: {fileID: 61192529503991806}
   - component: {fileID: 50527719562955284}
+  - component: {fileID: 114652860707531136}
   m_Layer: 0
   m_Name: Crate (11)
   m_TagString: Untagged
@@ -743,6 +751,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4597138598167400}
   - component: {fileID: 212065583312172708}
+  - component: {fileID: 114414097639121856}
   - component: {fileID: 61126089922562960}
   m_Layer: 0
   m_Name: Barrel (2)
@@ -969,6 +978,7 @@ GameObject:
   - component: {fileID: 212891690582874922}
   - component: {fileID: 61427884538775692}
   - component: {fileID: 50562803432784278}
+  - component: {fileID: 114436099648528796}
   m_Layer: 0
   m_Name: Crate (16)
   m_TagString: Untagged
@@ -1537,6 +1547,7 @@ GameObject:
   - component: {fileID: 212454609989472796}
   - component: {fileID: 61890114273805668}
   - component: {fileID: 50214085502650392}
+  - component: {fileID: 114375789076869688}
   m_Layer: 0
   m_Name: Crate (1)
   m_TagString: Untagged
@@ -1618,6 +1629,7 @@ GameObject:
   - component: {fileID: 212861088132759880}
   - component: {fileID: 61996100904831334}
   - component: {fileID: 50593669126260102}
+  - component: {fileID: 114636299888105206}
   m_Layer: 0
   m_Name: Crate (4)
   m_TagString: Untagged
@@ -1636,6 +1648,7 @@ GameObject:
   - component: {fileID: 212772318295464192}
   - component: {fileID: 61564434404987704}
   - component: {fileID: 50783031933700874}
+  - component: {fileID: 114382578771186290}
   m_Layer: 0
   m_Name: Crate (12)
   m_TagString: Untagged
@@ -1670,6 +1683,7 @@ GameObject:
   - component: {fileID: 212457679971368426}
   - component: {fileID: 61615351917432578}
   - component: {fileID: 50187379008509992}
+  - component: {fileID: 114064682617394952}
   m_Layer: 0
   m_Name: Crate (6)
   m_TagString: Untagged
@@ -1688,6 +1702,7 @@ GameObject:
   - component: {fileID: 212758399564496758}
   - component: {fileID: 61881274469013444}
   - component: {fileID: 50805526617739360}
+  - component: {fileID: 114104366281895572}
   m_Layer: 0
   m_Name: Crate (5)
   m_TagString: Untagged
@@ -1894,6 +1909,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4547298439868342}
   - component: {fileID: 212294319660584196}
+  - component: {fileID: 114513494366043290}
   - component: {fileID: 58724662025626328}
   m_Layer: 0
   m_Name: Barrel
@@ -1929,6 +1945,7 @@ GameObject:
   - component: {fileID: 212079697280973902}
   - component: {fileID: 61755871460587308}
   - component: {fileID: 50475398533116824}
+  - component: {fileID: 114053453388132972}
   m_Layer: 0
   m_Name: Crate
   m_TagString: Untagged
@@ -2012,6 +2029,7 @@ GameObject:
   - component: {fileID: 212912692700869534}
   - component: {fileID: 61538808249407482}
   - component: {fileID: 50940005588849140}
+  - component: {fileID: 114515668863782384}
   m_Layer: 0
   m_Name: Crate (8)
   m_TagString: Untagged
@@ -2222,6 +2240,7 @@ GameObject:
   - component: {fileID: 212731721875473998}
   - component: {fileID: 61960705603452696}
   - component: {fileID: 50394257854693154}
+  - component: {fileID: 114216175270409862}
   m_Layer: 0
   m_Name: Crate (10)
   m_TagString: Untagged
@@ -2317,6 +2336,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4702670787591124}
   - component: {fileID: 212946239201623348}
+  - component: {fileID: 114961488874523206}
   - component: {fileID: 58147832385061880}
   m_Layer: 0
   m_Name: Barrel (6)
@@ -2352,6 +2372,7 @@ GameObject:
   - component: {fileID: 212426936871527164}
   - component: {fileID: 61959306465643142}
   - component: {fileID: 50296436575186108}
+  - component: {fileID: 114811691498905756}
   m_Layer: 0
   m_Name: Crate (13)
   m_TagString: Untagged
@@ -2368,6 +2389,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4087304240267246}
   - component: {fileID: 212750335491557726}
+  - component: {fileID: 114647530274200710}
   - component: {fileID: 58918060122056530}
   m_Layer: 0
   m_Name: Barrel (4)
@@ -2567,6 +2589,7 @@ GameObject:
   - component: {fileID: 212512016237649120}
   - component: {fileID: 61082900442178430}
   - component: {fileID: 50411417809159762}
+  - component: {fileID: 114747047604623958}
   m_Layer: 0
   m_Name: Crate (2)
   m_TagString: Untagged
@@ -2700,6 +2723,7 @@ GameObject:
   - component: {fileID: 212186035443568078}
   - component: {fileID: 61036078767079330}
   - component: {fileID: 50064841233545160}
+  - component: {fileID: 114170440147576952}
   m_Layer: 0
   m_Name: Crate (9)
   m_TagString: Untagged
@@ -3045,6 +3069,7 @@ GameObject:
   - component: {fileID: 212522054693232826}
   - component: {fileID: 61962273695222710}
   - component: {fileID: 50379035022222166}
+  - component: {fileID: 114477495646917252}
   m_Layer: 0
   m_Name: Crate (17)
   m_TagString: Untagged
@@ -3061,6 +3086,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4827426050682498}
   - component: {fileID: 212676865618848582}
+  - component: {fileID: 114136819975635810}
   - component: {fileID: 58871084794074770}
   m_Layer: 0
   m_Name: Barrel (5)
@@ -7626,6 +7652,448 @@ CompositeCollider2D:
       - {x: 8, y: 6}
       - {x: 8, y: -6}
   m_VertexDistance: 0.0005
+--- !u!114 &114053453388132972
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1614129910225818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114064682617394952
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1558604378616800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114084971009178216
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1012253372652962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114104366281895572
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1560498718211204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114136819975635810
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1975640973298748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114138234743027464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1050894981697816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114170440147576952
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1845567837711046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114216175270409862
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1680204893917328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114353266163649726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1151134004748454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114375789076869688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1517656780273312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114382578771186290
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541278465772490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114414097639121856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1260218788752808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114436099648528796
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1314437885726004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114477495646917252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1965919091100396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114513494366043290
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1607891592882526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114515668863782384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1635612319900592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114564840052932934
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1066600068658030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114636299888105206
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1535562673316686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114647530274200710
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1741359643270676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114652860707531136
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1242739262543472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114712908145831228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1110138758273726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114747047604623958
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1803287249017054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114780530784387652
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1043182040430452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114811691498905756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1740823470553470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114942049995799510
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1234720139887154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114961488874523206
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726404514824990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d3a14253b64d96971ebd35e48f191a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingHealth: 1
+  _onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!212 &212011252521281322
 SpriteRenderer:
   m_ObjectHideFlags: 1
