@@ -4,34 +4,64 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
+    [SerializeField] KeyCode keyUp;
+    [SerializeField] KeyCode keyLeft;
+    [SerializeField] KeyCode keyDown;
+    [SerializeField] KeyCode keyRight;
     
+    [SerializeField] Movable Mover;
+
     void Update () {
-
-        
-
-        if (Input.GetKey(KeyCode.W))
+        Directions dir = Directions.None;
+        bool shouldTurn = true;
+        if (Input.GetKeyDown(keyUp))
         {
-            gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
-            gameObject.transform.position = gameObject.transform.position + new Vector3(0, 2 * Time.deltaTime);
-            
+            dir = Directions.Up;
         }
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKeyDown(keyLeft))
         {
-
-            gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 90));
-            gameObject.transform.position = gameObject.transform.position + new Vector3(-2 * Time.deltaTime, 0);
+            dir = Directions.Left;
         }
-        else if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKeyDown(keyDown))
         {
-
-            gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 180));
-            gameObject.transform.position = gameObject.transform.position + new Vector3(0, -2 * Time.deltaTime);
+            dir = Directions.Down;
         }
-        else if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKeyDown(keyRight))
         {
+            dir = Directions.Right;
+        }
+        else
+        {
+            shouldTurn = false;
+        }
 
-            gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 270));
-            gameObject.transform.position = gameObject.transform.position + new Vector3(2 * Time.deltaTime, 0);
+        if (shouldTurn)
+        {
+            Mover.Turn(dir);
+            Mover.Move(dir);
+            return;
+        }
+
+        if (Input.GetKey(keyUp))
+        {
+            dir = Directions.Up;
+        }
+        else if (Input.GetKey(keyLeft))
+        {
+            dir = Directions.Left;
+        }
+        else if (Input.GetKey(keyDown))
+        {
+            dir = Directions.Down;
+        }
+        else if (Input.GetKey(keyRight))
+        {
+            dir = Directions.Right;
+        }
+
+        if (dir != Directions.None)
+        {
+            Mover.Move(dir);
         }
     }
 }
