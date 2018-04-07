@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4715204818646614}
   - component: {fileID: 212405434678358108}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: View
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 114994466707353686}
   - component: {fileID: 50326649378332102}
   - component: {fileID: 61765001009300822}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4727560035251830}
   - component: {fileID: 114743928112603250}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
