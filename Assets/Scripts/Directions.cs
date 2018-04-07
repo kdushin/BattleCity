@@ -9,3 +9,17 @@ public enum Directions {
     Down,
     Right
 }
+
+public enum TurnDir
+{
+    None,
+    CwRight,
+    CcwLeft
+}
+
+public enum MoveDir
+{
+    None,
+    Forward,
+    Backward,
+}

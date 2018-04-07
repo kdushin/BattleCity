@@ -8,47 +8,36 @@ public class Movable : MonoBehaviour
 
     [SerializeField] private Rigidbody2D _rigidbody2D;
     [SerializeField] private float _speedFactor;
+    [SerializeField] private float _turnFactor;
 
-    public void Turn(Directions dir)
+    public void Turn(TurnDir dir)
     {
         switch (dir)
         {
-            case Directions.None:
+            case TurnDir.None:
                 break;
-            case Directions.Up:
-                _rigidbody2D.rotation = 0;
+            case TurnDir.CcwLeft:
+                _rigidbody2D.MoveRotation(_rigidbody2D.rotation + _turnFactor * Time.deltaTime);
                 break;
-            case Directions.Left:
-                _rigidbody2D.rotation = 90;
-                break;
-            case Directions.Down:
-                _rigidbody2D.rotation = 180;
-                break;
-            case Directions.Right:
-                _rigidbody2D.rotation = 270;
+            case TurnDir.CwRight:
+                _rigidbody2D.MoveRotation(_rigidbody2D.rotation - _turnFactor * Time.deltaTime);
                 break;
             default:
                 throw new ArgumentOutOfRangeException("dir", dir, null);
         }
     }
 
-    public void Move(Directions dir)
+    public void Move(MoveDir dir)
     {
         switch (dir)
         {
-            case Directions.None:
+            case MoveDir.None:
                 break;
-            case Directions.Up:
+            case MoveDir.Forward:
                 _rigidbody2D.MovePosition(_rigidbody2D.position + new Vector2(0, _speedFactor * Time.deltaTime));
                 break;
-            case Directions.Left:
-                _rigidbody2D.MovePosition(_rigidbody2D.position + new Vector2(-_speedFactor * Time.deltaTime, 0));
-                break;
-            case Directions.Down:
+            case MoveDir.Backward:
                 _rigidbody2D.MovePosition(_rigidbody2D.position + new Vector2(0, -_speedFactor * Time.deltaTime));
-                break;
-            case Directions.Right:
-                _rigidbody2D.MovePosition(_rigidbody2D.position + new Vector2(_speedFactor * Time.deltaTime, 0));
                 break;
             default:
                 throw new ArgumentOutOfRangeException("dir", dir, null);

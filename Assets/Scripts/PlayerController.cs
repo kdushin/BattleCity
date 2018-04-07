@@ -12,56 +12,26 @@ public class PlayerController : MonoBehaviour {
     [SerializeField] Movable Mover;
 
     void Update () {
-        Directions dir = Directions.None;
-        bool shouldTurn = true;
-        if (Input.GetKeyDown(keyUp))
-        {
-            dir = Directions.Up;
-        }
-        else if (Input.GetKeyDown(keyLeft))
-        {
-            dir = Directions.Left;
-        }
-        else if (Input.GetKeyDown(keyDown))
-        {
-            dir = Directions.Down;
-        }
-        else if (Input.GetKeyDown(keyRight))
-        {
-            dir = Directions.Right;
-        }
-        else
-        {
-            shouldTurn = false;
-        }
-
-        if (shouldTurn)
-        {
-            Mover.Turn(dir);
-            Mover.Move(dir);
-            return;
-        }
 
         if (Input.GetKey(keyUp))
         {
-            dir = Directions.Up;
-        }
-        else if (Input.GetKey(keyLeft))
-        {
-            dir = Directions.Left;
+            Mover.Move(MoveDir.Forward);
         }
         else if (Input.GetKey(keyDown))
         {
-            dir = Directions.Down;
+            Mover.Move(MoveDir.Backward);
+        }
+
+        if (Input.GetKey(keyLeft) && Input.GetKey(keyRight))
+        {
+        }
+        else if (Input.GetKey(keyLeft))
+        {
+            Mover.Turn(TurnDir.CcwLeft);
         }
         else if (Input.GetKey(keyRight))
         {
-            dir = Directions.Right;
-        }
-
-        if (dir != Directions.None)
-        {
-            Mover.Move(dir);
+            Mover.Turn(TurnDir.CwRight);
         }
     }
 }

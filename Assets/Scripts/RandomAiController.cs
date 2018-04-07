@@ -5,7 +5,7 @@ using UnityEngine;
 public class RandomAiController : MonoBehaviour {
 
     private System.Random r = new System.Random();
-    private Directions dir = Directions.Up;
+    private TurnDir dir = TurnDir.CcwLeft;
 
     [SerializeField] Movable Mover;
 
@@ -19,16 +19,25 @@ public class RandomAiController : MonoBehaviour {
         
         if (r.NextDouble() <= .8)        // 80% of time - move, 20% - do nothing
         {
-            if (r.NextDouble() <= .95)     // in 70% cases - keep direction, 30% - choose new one
+            if (r.NextDouble() <= .80)     // 80% - move forward, 15% - move bw, 5% dont move
             {
-                Mover.Move(dir);
+                Mover.Move(MoveDir.Forward);
             }
-            else
+            else if (r.NextDouble() <= .75) 
             {
-                dir = (Directions)r.Next(1, 5);
-                Mover.Turn(dir);
-                Mover.Move(dir);
+                Mover.Move(MoveDir.Backward);
             }
+        }
+
+	    if (r.NextDouble() < .3) // 30% of time turn somewhere, 70% dont turn
+	    {
+	        if (r.NextDouble() < .1)    // in rare case (10%) change direction, 90% - keep previous
+	        {
+	            dir = dir == TurnDir.CcwLeft ? TurnDir.CwRight : TurnDir.CcwLeft;
+                
+	        }
+
+	        Mover.Turn(dir);
         }
 	}
 }
