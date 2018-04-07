@@ -120,11 +120,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 66286748778643508, guid: 00943fb8a5b4da748b74465b0a9acbdf,
-        type: 2}
-      propertyPath: m_ColliderPaths.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4897366157661798, guid: 00943fb8a5b4da748b74465b0a9acbdf, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -155,14 +150,6 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4897366157661798, guid: 00943fb8a5b4da748b74465b0a9acbdf, type: 2}
       propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4897366157661798, guid: 00943fb8a5b4da748b74465b0a9acbdf, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1019655473351882, guid: 00943fb8a5b4da748b74465b0a9acbdf, type: 2}
-      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
